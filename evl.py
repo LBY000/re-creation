@@ -93,7 +93,7 @@ def calculate_fid_with_pytorch_fid(real_img_folder, fake_img_folder, batch_size=
 
 
 def evaluate_folder(src_dir):
-    clip_score = CLIPScore(model_name_or_path="your/openai-clip-vit-base-patch16/path/").to(device)
+    clip_score = CLIPScore(model_name_or_path="openai/clip-vit-base-patch16").to(device)
 
     dst_dir = 'data/fiter_coco_with_json'
     map_dir = 'data/coco_maps'
