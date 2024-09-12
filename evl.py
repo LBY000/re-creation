@@ -103,7 +103,7 @@ def evaluate_folder(src_dir):
     src_img, dst_img, captions = [], [], []
     occlusion_scores = []
 
-    meta_path = 'json/path'
+    meta_path = 'data/filtered_2017_validation_data.json'
     with open(meta_path, 'r') as f:
         for line in f:
             item = json.loads(line)
