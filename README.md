@@ -18,5 +18,5 @@ conda create -n re-creation python=3.8.19
 conda activate re-creation
 pip install -r requirements.txt
 ```
-## Evaluate
+## Evaluation
 We provide model-generated data to support the evaluation of our experimental results, along with our dataset files.
