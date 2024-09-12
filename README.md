@@ -12,4 +12,9 @@ git clone https://github.com/LBY000/Re-creation.git
 cd Re-creation
 ```
 
-
+## Environment
+```
+conda create -n re-creation python=3.8.19
+conda activate re-creation
+pip install -r requirements.txt
+```
