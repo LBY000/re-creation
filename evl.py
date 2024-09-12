@@ -95,8 +95,8 @@ def calculate_fid_with_pytorch_fid(real_img_folder, fake_img_folder, batch_size=
 def evaluate_folder(src_dir):
     clip_score = CLIPScore(model_name_or_path="your/openai-clip-vit-base-patch16/path/").to(device)
 
-    dst_dir = '/coco/pic/path/'
-    map_dir = 'maps/path'
+    dst_dir = 'data/fiter_coco_with_json'
+    map_dir = 'data/coco_maps'
     saliency_dir = f'{src_dir}-map'
     files = os.listdir(src_dir)
     batch_size = 50
@@ -146,7 +146,7 @@ def evaluate_folder(src_dir):
 
 if __name__ == '__main__':
     folders = [
-        "add/our/image/path"
+        "data/evl_img/img"
     ]
 
     for folder_path in folders:
