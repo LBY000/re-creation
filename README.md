@@ -8,8 +8,8 @@ In graphic design, the selection of background images is one of the key factors 
 
 ## Installation
 ```
-git clone https://github.com/ecnuljzhang/brush-your-text.git
-cd brush-your-text
+git clone https://github.com/LBY000/Re-creation.git
+cd Re-creation
 ```
 
 
