@@ -19,7 +19,7 @@ conda activate re-creation
 pip install -r requirements.txt
 ```
 ## Evaluation
-We provide model-generated data to support the evaluation of our experimental results, along with our dataset files. Our datasets can be downloaded from [Here](https://huggingface.co/datasets/Yigubigu/Re-creation).
+Our datasets will be released after the paper is accepted.
 You need to replace the data address in evl.py with the address of the data you downloaded.
 Start evaluation:
 ```
